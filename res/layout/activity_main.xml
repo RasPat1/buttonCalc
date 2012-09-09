@@ -1,0 +1,190 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        android:text="@string/textview" />
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/textView1" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button1"
+                style="@android:style/Holo.Light.SegmentedButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/button1"
+                android:onClick="onClickOne" />
+
+            <Button
+                android:id="@+id/button2"
+                style="@android:style/Holo.Light.SegmentedButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/button2"
+                android:onClick="onClickTwo" />
+
+            <Button
+                android:id="@+id/button3"
+                style="@android:style/Holo.Light.SegmentedButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/button3" 
+                android:onClick="onClickThree"/>
+
+            <Button
+                android:id="@+id/buttonadd"
+                style="@android:style/Holo.Light.SegmentedButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="@string/buttonadd" 
+                android:onClick="onClickAdd"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button4"
+                style="@android:style/Holo.Light.SegmentedButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/button4" 
+                android:onClick="onClickFour"/>
+
+            <Button
+                android:id="@+id/button5"
+                style="@android:style/Holo.Light.SegmentedButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/button5" 
+                android:onClick="onClickFive"/>
+
+            <Button
+                android:id="@+id/button6"
+                style="@android:style/Holo.Light.SegmentedButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/button6" 
+                android:onClick="onClickSix"/>
+
+            <Button
+                android:id="@+id/buttonsubtract"
+                style="@android:style/Holo.Light.SegmentedButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="@string/buttonsubtract" 
+                android:onClick="onClickSubtract"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button7"
+                style="@android:style/Holo.Light.SegmentedButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/button7" 
+                android:onClick="onClickSeven"/>
+
+            <Button
+                android:id="@+id/button8"
+                style="@android:style/Holo.Light.SegmentedButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/button8" 
+                android:onClick="onClickEight"/>
+
+            <Button
+                android:id="@+id/button9"
+                style="@android:style/Holo.Light.SegmentedButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/button9" 
+                android:onClick="onClickNine"/>
+
+            <Button
+                android:id="@+id/buttonmultiply"
+                style="@android:style/Holo.Light.SegmentedButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="@string/buttonmultiply" 
+                android:onClick="onClickMultiply"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button0"
+                style="@android:style/Holo.Light.SegmentedButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/button0" 
+                android:onClick="onClickZero"/>
+
+            <Button
+                android:id="@+id/buttondecimal"
+                style="@android:style/Holo.Light.SegmentedButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/buttondecimal" 
+                android:onClick="onClickDecimal"/>
+
+            <Button
+                android:id="@+id/buttonequals"
+                style="@android:style/Holo.Light.SegmentedButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/buttonequals" 
+                android:onClick="onClickEquals"/>
+
+            <Button
+                android:id="@+id/buttondivide"
+                style="@android:style/Holo.Light.SegmentedButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="@string/buttondivide" 
+                android:onClick="onClickDivide"/>
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>
