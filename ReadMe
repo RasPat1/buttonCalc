@@ -29,7 +29,10 @@
  *Did not install proper debug procedures.  Next time use Logcat
  *	and for god sakes figure out how to use the step functions, breakpoints, and 
  *	variable and expression monitors you idiot!
- *		
+ *Why do i have to keep finding textview by ID can't i find it once and store 
+ *	it?  If i store it as a class field then ill get a nullPointerExcpetion 
+ *  since content view has not been set yet.  How do i declare it once and use 
+ *  it everywhere?		
  *
  *		---- Questions ----
  *
